@@ -1,0 +1,47 @@
+2023-01-04 14:19:25,934 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-9090-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-04 14:19:25,935 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-9090-exec-3] Initializing Servlet 'dispatcherServlet'
+2023-01-04 14:19:25,936 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-9090-exec-3] Completed initialization in 1 ms
+2023-01-04 14:19:25,939 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-3] ip address 0:0:0:0:0:0:0:1
+2023-01-04 14:19:26,158 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-3] msisdn 01010857174 country Egypt
+2023-01-04 14:19:26,158 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-3] msisdn after format 201010857174 country Egypt
+2023-01-04 14:19:26,159 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-3] Correct msisdn 201010857174 country Egypt
+2023-01-04 14:19:43,635 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-2] ip address 0:0:0:0:0:0:0:1
+2023-01-04 14:19:43,973 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-2] msisdn 0101085717 country Egypt
+2023-01-04 14:19:43,974 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-2] msisdn after format 20101085717 country Egypt
+2023-01-04 14:19:43,974 [ERROR] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-2] Wrong msisdn 20101085717 country Egypt
+2023-01-04 14:20:04,018 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-6] ip address 197.16.171.222
+2023-01-04 14:20:04,234 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-6] msisdn 21629689786 country Tunisia
+2023-01-04 14:20:04,234 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-6] msisdn after format 29689786 country Tunisia
+2023-01-04 14:20:04,234 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-6] Correct msisdn 21629689786 country Tunisia
+2023-01-04 14:21:38,620 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-8] ip address 197.16.171.222
+2023-01-04 14:21:38,823 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-8] msisdn 1010857174 country Tunisia
+2023-01-04 14:21:38,823 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-8] msisdn after format 1010857174 country Tunisia
+2023-01-04 14:21:38,824 [ERROR] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-8] Invalid msisdn 2161010857174 country Tunisia
+2023-01-04 14:21:57,018 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-7] ip address 176.19.181.164
+2023-01-04 14:21:57,235 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-7] msisdn 966541666667 country Saudi Arabia
+2023-01-04 14:21:57,236 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-7] msisdn after format 541666667 country Saudi Arabia
+2023-01-04 14:21:57,236 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-7] Correct msisdn 966541666667 country Saudi Arabia
+2023-01-04 14:22:06,221 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-9] ip address 176.19.181.164
+2023-01-04 14:22:06,413 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-9] msisdn 966541666 country Saudi Arabia
+2023-01-04 14:22:06,414 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-9] msisdn after format 541666 country Saudi Arabia
+2023-01-04 14:22:06,414 [ERROR] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-9] Invalid msisdn 966541666 country Saudi Arabia
+2023-01-04 16:16:35,463 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-1] ip address 37.237.135.14
+2023-01-04 16:16:35,625 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-1] msisdn 9647815638529 country Iraq
+2023-01-04 16:16:35,628 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-1] msisdn after format 7815638529 country Iraq
+2023-01-04 16:16:35,632 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-1] Correct msisdn 9647815638529 country Iraq
+2023-01-04 16:16:49,717 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-2] ip address 37.237.135.14
+2023-01-04 16:16:49,869 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-2] msisdn 9647815638 country Iraq
+2023-01-04 16:16:49,870 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-2] msisdn after format 7815638 country Iraq
+2023-01-04 16:16:49,870 [ERROR] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-2] Invalid msisdn 9647815638 country Iraq
+2023-01-04 16:17:23,667 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-6] ip address 197.16.171.222
+2023-01-04 16:17:23,926 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-6] msisdn 21629689786 country Tunisia
+2023-01-04 16:17:23,926 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-6] msisdn after format 29689786 country Tunisia
+2023-01-04 16:17:23,927 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-6] Correct msisdn 21629689786 country Tunisia
+2023-01-04 17:12:48,526 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-8] ip address 197.16.171.222
+2023-01-04 17:12:48,664 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-8] msisdn 2162968978 country Tunisia
+2023-01-04 17:12:48,664 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-8] msisdn after format 2968978 country Tunisia
+2023-01-04 17:12:48,665 [ERROR] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-8] Invalid msisdn 2162968978 country Tunisia
+2023-01-04 17:13:10,422 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-7] ip address 197.16.171.222
+2023-01-04 17:13:10,563 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-7] msisdn 296689786 country Tunisia
+2023-01-04 17:13:10,563 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-7] msisdn after format 296689786 country Tunisia
+2023-01-04 17:13:10,563 [ERROR] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-7] Invalid msisdn 216296689786 country Tunisia
