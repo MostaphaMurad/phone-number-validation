@@ -1,47 +1,295 @@
-2023-01-04 14:19:25,934 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-9090-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-01-04 14:19:25,935 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-9090-exec-3] Initializing Servlet 'dispatcherServlet'
-2023-01-04 14:19:25,936 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-9090-exec-3] Completed initialization in 1 ms
-2023-01-04 14:19:25,939 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-3] ip address 0:0:0:0:0:0:0:1
-2023-01-04 14:19:26,158 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-3] msisdn 01010857174 country Egypt
-2023-01-04 14:19:26,158 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-3] msisdn after format 201010857174 country Egypt
-2023-01-04 14:19:26,159 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-3] Correct msisdn 201010857174 country Egypt
-2023-01-04 14:19:43,635 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-2] ip address 0:0:0:0:0:0:0:1
-2023-01-04 14:19:43,973 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-2] msisdn 0101085717 country Egypt
-2023-01-04 14:19:43,974 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-2] msisdn after format 20101085717 country Egypt
-2023-01-04 14:19:43,974 [ERROR] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-2] Wrong msisdn 20101085717 country Egypt
-2023-01-04 14:20:04,018 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-6] ip address 197.16.171.222
-2023-01-04 14:20:04,234 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-6] msisdn 21629689786 country Tunisia
-2023-01-04 14:20:04,234 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-6] msisdn after format 29689786 country Tunisia
-2023-01-04 14:20:04,234 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-6] Correct msisdn 21629689786 country Tunisia
-2023-01-04 14:21:38,620 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-8] ip address 197.16.171.222
-2023-01-04 14:21:38,823 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-8] msisdn 1010857174 country Tunisia
-2023-01-04 14:21:38,823 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-8] msisdn after format 1010857174 country Tunisia
-2023-01-04 14:21:38,824 [ERROR] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-8] Invalid msisdn 2161010857174 country Tunisia
-2023-01-04 14:21:57,018 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-7] ip address 176.19.181.164
-2023-01-04 14:21:57,235 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-7] msisdn 966541666667 country Saudi Arabia
-2023-01-04 14:21:57,236 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-7] msisdn after format 541666667 country Saudi Arabia
-2023-01-04 14:21:57,236 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-7] Correct msisdn 966541666667 country Saudi Arabia
-2023-01-04 14:22:06,221 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-9] ip address 176.19.181.164
-2023-01-04 14:22:06,413 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-9] msisdn 966541666 country Saudi Arabia
-2023-01-04 14:22:06,414 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-9] msisdn after format 541666 country Saudi Arabia
-2023-01-04 14:22:06,414 [ERROR] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-9] Invalid msisdn 966541666 country Saudi Arabia
-2023-01-04 16:16:35,463 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-1] ip address 37.237.135.14
-2023-01-04 16:16:35,625 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-1] msisdn 9647815638529 country Iraq
-2023-01-04 16:16:35,628 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-1] msisdn after format 7815638529 country Iraq
-2023-01-04 16:16:35,632 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-1] Correct msisdn 9647815638529 country Iraq
-2023-01-04 16:16:49,717 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-2] ip address 37.237.135.14
-2023-01-04 16:16:49,869 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-2] msisdn 9647815638 country Iraq
-2023-01-04 16:16:49,870 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-2] msisdn after format 7815638 country Iraq
-2023-01-04 16:16:49,870 [ERROR] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-2] Invalid msisdn 9647815638 country Iraq
-2023-01-04 16:17:23,667 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-6] ip address 197.16.171.222
-2023-01-04 16:17:23,926 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-6] msisdn 21629689786 country Tunisia
-2023-01-04 16:17:23,926 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-6] msisdn after format 29689786 country Tunisia
-2023-01-04 16:17:23,927 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-6] Correct msisdn 21629689786 country Tunisia
-2023-01-04 17:12:48,526 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-8] ip address 197.16.171.222
-2023-01-04 17:12:48,664 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-8] msisdn 2162968978 country Tunisia
-2023-01-04 17:12:48,664 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-8] msisdn after format 2968978 country Tunisia
-2023-01-04 17:12:48,665 [ERROR] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-8] Invalid msisdn 2162968978 country Tunisia
-2023-01-04 17:13:10,422 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-7] ip address 197.16.171.222
-2023-01-04 17:13:10,563 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-7] msisdn 296689786 country Tunisia
-2023-01-04 17:13:10,563 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-7] msisdn after format 296689786 country Tunisia
-2023-01-04 17:13:10,563 [ERROR] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-7] Invalid msisdn 216296689786 country Tunisia
+2023-01-11 12:01:07,677 [INFO] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] Starting MsisdnValidationApplication using Java 1.8.0_333 on MMURAD with PID 16864 (D:\projects\Shofha Projects\msisdn-validation\target\classes started by mmurad in D:\projects\Shofha Projects\msisdn-validation)
+2023-01-11 12:01:07,697 [DEBUG] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-01-11 12:01:07,698 [INFO] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-11 12:01:07,799 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-11 12:01:07,800 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-11 12:01:09,330 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9090 (http)
+2023-01-11 12:01:09,339 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-01-11 12:01:09,339 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-01-11 12:01:09,415 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-11 12:01:09,416 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1615 ms
+2023-01-11 12:01:09,863 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-11 12:01:09,974 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9090 (http) with context path ''
+2023-01-11 12:01:09,975 [INFO] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2023-01-11 12:01:09,991 [INFO] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2023-01-11 12:01:10,001 [INFO] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2023-01-11 12:01:10,148 [INFO] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] Started MsisdnValidationApplication in 3.368 seconds (JVM running for 4.853)
+2023-01-11 12:01:23,465 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-9090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-11 12:01:23,466 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-9090-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-01-11 12:01:23,466 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-9090-exec-1] Completed initialization in 0 ms
+2023-01-11 12:01:23,534 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-1] ip address 37.237.135.14
+2023-01-11 12:01:23,759 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-1] msisdn 9647850297929 country Iraq
+2023-01-11 12:01:23,760 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-1] msisdn after format 7850297929 country Iraq
+2023-01-11 12:01:23,790 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-1] Correct msisdn 9647850297929 country Iraq
+2023-01-11 12:02:56,091 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-5] ip address 37.237.135.14
+2023-01-11 12:02:56,216 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-5] msisdn 9647812169061 country Iraq
+2023-01-11 12:02:56,216 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-5] msisdn after format 7812169061 country Iraq
+2023-01-11 12:02:56,217 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-5] Correct msisdn 9647812169061 country Iraq
+2023-01-11 12:03:40,733 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-6] ip address 37.237.135.14
+2023-01-11 12:03:40,862 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-6] msisdn 07701611088 country Iraq
+2023-01-11 12:03:40,863 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-6] msisdn after format 7701611088 country Iraq
+2023-01-11 12:03:40,864 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-6] Correct msisdn 9647701611088 country Iraq
+2023-01-11 12:11:13,045 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-9] ip address 37.237.135.14
+2023-01-11 12:11:13,230 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-9] msisdn 53800053 country Iraq
+2023-01-11 12:11:13,230 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-9] msisdn after format 53800053 country Iraq
+2023-01-11 12:11:13,231 [ERROR] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-9] Invalid msisdn 96453800053 country Iraq
+2023-01-11 12:11:39,196 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-7] ip address 37.237.135.14
+2023-01-11 12:11:39,359 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-7] msisdn 0 country Iraq
+2023-01-11 12:11:39,360 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-7] msisdn after format 0 country Iraq
+2023-01-11 12:11:39,378 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-9090-exec-7] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.StringIndexOutOfBoundsException: String index out of range: 5] with root cause
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(String.java:1963)
+	at com.arpu.shofha.msisdnvalidation.Service.Imp.CountriesValidationServiceImplementation.CountryValidationService(CountriesValidationServiceImplementation.java:59)
+	at com.arpu.shofha.msisdnvalidation.Service.Imp.MsisdnValidationServiceImp.isMsisdnValid(MsisdnValidationServiceImp.java:27)
+	at com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation.isMsisdnValidV2(MsisdnApiValidation.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2023-01-11 12:11:47,341 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-1] ip address 37.237.135.14
+2023-01-11 12:11:47,501 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-1] msisdn  country Iraq
+2023-01-11 12:11:47,502 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-1] msisdn after format  country Iraq
+2023-01-11 12:11:47,503 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-9090-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.StringIndexOutOfBoundsException: String index out of range: 4] with root cause
+java.lang.StringIndexOutOfBoundsException: String index out of range: 4
+	at java.lang.String.substring(String.java:1963)
+	at com.arpu.shofha.msisdnvalidation.Service.Imp.CountriesValidationServiceImplementation.CountryValidationService(CountriesValidationServiceImplementation.java:58)
+	at com.arpu.shofha.msisdnvalidation.Service.Imp.MsisdnValidationServiceImp.isMsisdnValid(MsisdnValidationServiceImp.java:27)
+	at com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation.isMsisdnValidV2(MsisdnApiValidation.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2023-01-11 12:14:31,413 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+2023-01-11 12:14:31,825 [INFO] org.apache.catalina.core.StandardService [Thread-9] Stopping service [Tomcat]
+2023-01-11 12:14:31,826 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-9] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-11 12:14:31,986 [INFO] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] Starting MsisdnValidationApplication using Java 1.8.0_333 on MMURAD with PID 16864 (D:\projects\Shofha Projects\msisdn-validation\target\classes started by mmurad in D:\projects\Shofha Projects\msisdn-validation)
+2023-01-11 12:14:31,987 [DEBUG] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-01-11 12:14:31,987 [INFO] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-11 12:14:32,482 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9090 (http)
+2023-01-11 12:14:32,482 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-01-11 12:14:32,482 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-01-11 12:14:32,501 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-11 12:14:32,501 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 511 ms
+2023-01-11 12:14:32,673 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-11 12:14:32,727 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9090 (http) with context path ''
+2023-01-11 12:14:32,728 [INFO] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2023-01-11 12:14:32,729 [INFO] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2023-01-11 12:14:32,733 [INFO] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2023-01-11 12:14:32,753 [INFO] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] Started MsisdnValidationApplication in 0.808 seconds (JVM running for 807.457)
+2023-01-11 12:14:32,756 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-01-11 12:14:34,127 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2023-01-11 12:14:34,436 [INFO] org.apache.catalina.core.StandardService [Thread-16] Stopping service [Tomcat]
+2023-01-11 12:14:34,562 [INFO] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] Starting MsisdnValidationApplication using Java 1.8.0_333 on MMURAD with PID 16864 (D:\projects\Shofha Projects\msisdn-validation\target\classes started by mmurad in D:\projects\Shofha Projects\msisdn-validation)
+2023-01-11 12:14:34,562 [DEBUG] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-01-11 12:14:34,562 [INFO] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-11 12:14:34,809 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9090 (http)
+2023-01-11 12:14:34,810 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-01-11 12:14:34,810 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-01-11 12:14:34,823 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-11 12:14:34,824 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 259 ms
+2023-01-11 12:14:34,928 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-11 12:14:34,969 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9090 (http) with context path ''
+2023-01-11 12:14:34,970 [INFO] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2023-01-11 12:14:34,971 [INFO] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2023-01-11 12:14:34,974 [INFO] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2023-01-11 12:14:34,991 [INFO] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] Started MsisdnValidationApplication in 0.454 seconds (JVM running for 809.694)
+2023-01-11 12:14:34,992 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-01-11 12:14:36,373 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-9090-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-11 12:14:36,374 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-9090-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-01-11 12:14:36,375 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-9090-exec-2] Completed initialization in 1 ms
+2023-01-11 12:14:36,379 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-2] ip address 0:0:0:0:0:0:0:1
+2023-01-11 12:14:36,596 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-2] msisdn 1010857174 country Egypt
+2023-01-11 12:14:36,598 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-2] msisdn after format 201010857174 country Egypt
+2023-01-11 12:14:36,600 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-2] Correct msisdn 201010857174 country Egypt
+2023-01-11 12:15:07,086 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-3] ip address 0:0:0:0:0:0:0:1
+2023-01-11 12:15:07,521 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-3] msisdn 101085714 country Egypt
+2023-01-11 12:15:07,522 [ERROR] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-3] Invalid msisdn 101085714 country Egypt
+2023-01-11 12:15:19,176 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-4] ip address 37.237.135.14
+2023-01-11 12:15:19,361 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-4] msisdn  country Iraq
+2023-01-11 12:15:19,361 [ERROR] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-4] Invalid msisdn  country Iraq
+2023-01-11 12:15:24,550 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-5] ip address 37.237.135.14
+2023-01-11 12:15:24,713 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-5] msisdn 0 country Iraq
+2023-01-11 12:15:24,714 [ERROR] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-5] Invalid msisdn 0 country Iraq
+2023-01-11 12:15:31,866 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-6] ip address 37.237.135.14
+2023-01-11 12:15:32,012 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-6] msisdn 0856 country Iraq
+2023-01-11 12:15:32,012 [ERROR] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-6] Invalid msisdn 856 country Iraq
+2023-01-11 12:17:08,878 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-01-11 12:17:09,167 [INFO] org.apache.catalina.core.StandardService [Thread-20] Stopping service [Tomcat]
+2023-01-11 12:17:09,168 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-20] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-11 12:17:09,317 [INFO] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] Starting MsisdnValidationApplication using Java 1.8.0_333 on MMURAD with PID 16864 (D:\projects\Shofha Projects\msisdn-validation\target\classes started by mmurad in D:\projects\Shofha Projects\msisdn-validation)
+2023-01-11 12:17:09,317 [DEBUG] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-01-11 12:17:09,317 [INFO] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-11 12:17:09,622 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9090 (http)
+2023-01-11 12:17:09,623 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-01-11 12:17:09,624 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-01-11 12:17:09,644 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-11 12:17:09,644 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 324 ms
+2023-01-11 12:17:09,769 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-11 12:17:09,819 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9090 (http) with context path ''
+2023-01-11 12:17:09,820 [INFO] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2023-01-11 12:17:09,821 [INFO] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2023-01-11 12:17:09,825 [INFO] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2023-01-11 12:17:09,842 [INFO] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] Started MsisdnValidationApplication in 0.554 seconds (JVM running for 964.546)
+2023-01-11 12:17:09,845 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-01-11 12:17:11,222 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-01-11 12:17:11,538 [INFO] org.apache.catalina.core.StandardService [Thread-24] Stopping service [Tomcat]
+2023-01-11 12:17:11,654 [INFO] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] Starting MsisdnValidationApplication using Java 1.8.0_333 on MMURAD with PID 16864 (D:\projects\Shofha Projects\msisdn-validation\target\classes started by mmurad in D:\projects\Shofha Projects\msisdn-validation)
+2023-01-11 12:17:11,654 [DEBUG] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-01-11 12:17:11,654 [INFO] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-11 12:17:11,911 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9090 (http)
+2023-01-11 12:17:11,911 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-01-11 12:17:11,912 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-01-11 12:17:11,928 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-11 12:17:11,928 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 271 ms
+2023-01-11 12:17:11,991 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-11 12:17:12,016 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9090 (http) with context path ''
+2023-01-11 12:17:12,017 [INFO] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2023-01-11 12:17:12,017 [INFO] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2023-01-11 12:17:12,019 [INFO] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2023-01-11 12:17:12,029 [INFO] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] Started MsisdnValidationApplication in 0.407 seconds (JVM running for 966.733)
+2023-01-11 12:17:12,030 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-01-11 12:18:04,362 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-01-11 12:18:04,807 [INFO] org.apache.catalina.core.StandardService [Thread-28] Stopping service [Tomcat]
+2023-01-11 12:18:04,915 [INFO] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] Starting MsisdnValidationApplication using Java 1.8.0_333 on MMURAD with PID 16864 (D:\projects\Shofha Projects\msisdn-validation\target\classes started by mmurad in D:\projects\Shofha Projects\msisdn-validation)
+2023-01-11 12:18:04,916 [DEBUG] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-01-11 12:18:04,916 [INFO] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-11 12:18:05,332 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9090 (http)
+2023-01-11 12:18:05,333 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-01-11 12:18:05,333 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-01-11 12:18:05,357 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-11 12:18:05,357 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 436 ms
+2023-01-11 12:18:05,449 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-11 12:18:05,481 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9090 (http) with context path ''
+2023-01-11 12:18:05,481 [INFO] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2023-01-11 12:18:05,482 [INFO] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2023-01-11 12:18:05,484 [INFO] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2023-01-11 12:18:05,498 [INFO] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] Started MsisdnValidationApplication in 0.62 seconds (JVM running for 1020.202)
+2023-01-11 12:18:05,500 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-01-11 12:18:06,886 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-01-11 12:18:07,225 [INFO] org.apache.catalina.core.StandardService [Thread-32] Stopping service [Tomcat]
+2023-01-11 12:18:07,321 [INFO] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] Starting MsisdnValidationApplication using Java 1.8.0_333 on MMURAD with PID 16864 (D:\projects\Shofha Projects\msisdn-validation\target\classes started by mmurad in D:\projects\Shofha Projects\msisdn-validation)
+2023-01-11 12:18:07,321 [DEBUG] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-01-11 12:18:07,321 [INFO] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-11 12:18:07,504 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9090 (http)
+2023-01-11 12:18:07,505 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-01-11 12:18:07,505 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-01-11 12:18:07,518 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-11 12:18:07,518 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 195 ms
+2023-01-11 12:18:07,580 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-11 12:18:07,605 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9090 (http) with context path ''
+2023-01-11 12:18:07,605 [INFO] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2023-01-11 12:18:07,606 [INFO] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2023-01-11 12:18:07,607 [INFO] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2023-01-11 12:18:07,618 [INFO] com.arpu.shofha.msisdnvalidation.MsisdnValidationApplication [restartedMain] Started MsisdnValidationApplication in 0.318 seconds (JVM running for 1022.323)
+2023-01-11 12:18:07,619 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-01-11 12:18:08,670 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-9090-exec-4] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-11 12:18:08,671 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-9090-exec-4] Initializing Servlet 'dispatcherServlet'
+2023-01-11 12:18:08,672 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-9090-exec-4] Completed initialization in 1 ms
+2023-01-11 12:18:08,675 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-4] ip address 37.237.135.14
+2023-01-11 12:18:08,803 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-4] msisdn 0856 country Iraq
+2023-01-11 12:18:08,804 [ERROR] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-4] Invalid msisdn 856 country Iraq
+2023-01-11 12:18:23,382 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-3] ip address 37.237.135.14
+2023-01-11 12:18:23,507 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-3] msisdn 9647815638529 country Iraq
+2023-01-11 12:18:23,508 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-3] msisdn after format 7815638529 country Iraq
+2023-01-11 12:18:23,510 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-3] Correct msisdn 9647815638529 country Iraq
+2023-01-11 12:18:34,557 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-2] ip address 0:0:0:0:0:0:0:1
+2023-01-11 12:18:34,682 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-2] msisdn 0 country Egypt
+2023-01-11 12:18:34,682 [ERROR] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-2] Invalid msisdn 0 country Egypt
+2023-01-11 12:18:41,351 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-9] ip address 0:0:0:0:0:0:0:1
+2023-01-11 12:18:41,526 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-9] msisdn 012 country Egypt
+2023-01-11 12:18:41,526 [ERROR] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-9] Invalid msisdn 012 country Egypt
+2023-01-11 12:18:47,002 [TRACE] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-6] ip address 0:0:0:0:0:0:0:1
+2023-01-11 12:18:48,191 [INFO] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-6] msisdn  country Egypt
+2023-01-11 12:18:48,191 [ERROR] com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation [http-nio-9090-exec-6] Invalid msisdn  country Egypt

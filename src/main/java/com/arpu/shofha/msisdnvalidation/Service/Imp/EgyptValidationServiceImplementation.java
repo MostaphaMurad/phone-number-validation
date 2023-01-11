@@ -25,7 +25,19 @@ public class EgyptValidationServiceImplementation implements CountryValidation {
         MsisdnRegionResponseV2 msisdnRegionResponseV2=new MsisdnRegionResponseV2();
         msisdn=countriesData.convertToEnglishDigits(msisdn);
         msisdn=msisdn.replaceAll("[^a-zA-Z0-9]", "");
+
         HasPrefix hasPrefix=countriesData.hasPrefixForCountry(countryName,msisdn);
+
+        if(msisdn.length()<10){
+            msisdnRegionResponseV2.setStatus(0);
+            msisdnRegionResponseV2.setMsisdn(msisdn);
+            msisdnRegionResponseV2.setCountry(countryName);
+            msisdnRegionResponseV2.setMessage("Invalid Mobile Number ");
+            msisdnRegionResponseV2.setPattern(hasPrefix.getMsisdnPattern());
+            logger.error("Invalid msisdn "+msisdn+" country "+countryName);
+            return msisdnRegionResponseV2;
+        }
+
         int idx=0,cntz=0;
         if(msisdn.startsWith("2")){
             idx++;

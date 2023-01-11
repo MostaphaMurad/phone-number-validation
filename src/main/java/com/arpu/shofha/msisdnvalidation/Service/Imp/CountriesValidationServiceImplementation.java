@@ -2,12 +2,10 @@ package com.arpu.shofha.msisdnvalidation.Service.Imp;
 
 import com.arpu.shofha.msisdnvalidation.Controllers.MsisdnApiValidation;
 import com.arpu.shofha.msisdnvalidation.Service.CountryValidation;
-import com.arpu.shofha.msisdnvalidation.Service.Imp.IsPhoneNumberServiceImp;
 import com.arpu.shofha.msisdnvalidation.StaticData.CountriesData;
 import com.arpu.shofha.msisdnvalidation.dto.HasPrefix;
 import com.arpu.shofha.msisdnvalidation.dto.MsisdnRegionResponseV2;
 import com.arpu.shofha.msisdnvalidation.dto.OperatorResponse;
-import com.google.i18n.phonenumbers.NumberParseException;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -29,7 +27,18 @@ public class CountriesValidationServiceImplementation implements CountryValidati
         msisdn=msisdn.replaceFirst("^0+(?!$)","");
         msisdn=msisdn.replaceAll("[^a-zA-Z0-9]", "");
         msisdn=msisdn.replaceFirst("^0+(?!$)","");
+
         HasPrefix hasPrefix=countriesData.hasPrefixForCountry(countryName,msisdn);
+
+        if(msisdn.length()<8){
+            msisdnRegionResponseV2.setStatus(0);
+            msisdnRegionResponseV2.setMsisdn(msisdn);
+            msisdnRegionResponseV2.setCountry(countryName);
+            msisdnRegionResponseV2.setPattern(hasPrefix.getMsisdnPattern());
+            msisdnRegionResponseV2.setMessage("Invalid Mobile Number ");
+            logger.error("Invalid msisdn "+msisdn+" country "+countryName);
+            return msisdnRegionResponseV2;
+        }
         if(!msisdn.startsWith(hasPrefix.getCountryCode())){
             if(msisdn.length()>hasPrefix.getMsisdnLen()){
                 int dif=0;
