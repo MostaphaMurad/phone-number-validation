@@ -27,6 +27,10 @@
             <artifactId>libphonenumber</artifactId>
             <version>8.12.10</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-webflux</artifactId>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/com.googlecode.libphonenumber/geocoder -->
         <dependency>
             <groupId>com.googlecode.libphonenumber</groupId>

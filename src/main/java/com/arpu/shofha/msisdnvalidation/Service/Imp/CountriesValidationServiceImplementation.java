@@ -15,8 +15,8 @@ import java.util.List;
 
 @RequiredArgsConstructor
 public class CountriesValidationServiceImplementation implements CountryValidation {
-    public final CountriesData countriesData;
-    public final IsPhoneNumberServiceImp isPhoneNumberServiceImp;
+    private final CountriesData countriesData;
+    private final IsPhoneNumberServiceImp isPhoneNumberServiceImp;
     @Override
     public MsisdnRegionResponseV2 CountryValidationService(String countryName, String msisdn) {
         Logger logger= LoggerFactory.getLogger(MsisdnApiValidation.class);

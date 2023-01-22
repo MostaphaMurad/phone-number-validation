@@ -16,8 +16,8 @@ import java.util.List;
 
 @RequiredArgsConstructor
 public class EgyptValidationServiceImplementation implements CountryValidation {
-    public final CountriesData countriesData;
-    public final IsPhoneNumberServiceImp isPhoneNumberServiceImp;
+    private final CountriesData countriesData;
+    private final IsPhoneNumberServiceImp isPhoneNumberServiceImp;
     @Override
     public MsisdnRegionResponseV2 CountryValidationService(String countryName, String msisdn) throws NumberParseException {
         Logger logger= LoggerFactory.getLogger(MsisdnApiValidation.class);
@@ -38,24 +38,24 @@ public class EgyptValidationServiceImplementation implements CountryValidation {
             return msisdnRegionResponseV2;
         }
 
-        int idx=0,cntz=0;
+        int idx=0,cntZero=0;
         if(msisdn.startsWith("2")){
             idx++;
             while(msisdn.charAt(idx)=='0') {
-                cntz++;
+                cntZero++;
                 idx++;
             }
-            if(cntz>1){
-                msisdn=msisdn.substring(cntz+1);
+            if(cntZero>1){
+                msisdn=msisdn.substring(cntZero+1);
                 msisdn="20"+msisdn;
             }
         }
         else{
             while(msisdn.charAt(idx)=='0'){
-                cntz++;
+                cntZero++;
                 idx++;
             }
-            msisdn=msisdn.substring(cntz);
+            msisdn=msisdn.substring(cntZero);
             msisdn="20"+msisdn;
         }
         logger.info("msisdn after format "+msisdn+" country "+countryName);
