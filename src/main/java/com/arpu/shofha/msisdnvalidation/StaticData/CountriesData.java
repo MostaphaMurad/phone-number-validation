@@ -10,9 +10,9 @@ import java.util.List;
 import java.util.Map;
 
 public  class  CountriesData {
-    private Map countries()
+/*    private Map countries()
     {
-        Map<String,Object >countries=new HashMap<>();
+        Map<String,String[][] >countries=new HashMap<>();
         countries.put("EG", new String[][]{{"Egypt", "20"},{"60201","60202","60203","60204"}});
         countries.put("KW",new String[][]{{"Kuwait","965"},{"41903","41904","41902"}});
         countries.put("TN",new String[][]{{"Tunisia","216"},{"60501","60503","60502"}});
@@ -35,19 +35,19 @@ public  class  CountriesData {
     public CountryResponse getCountry(String countryCode){
         Map map=countries();
         CountryResponse countryResponse=new CountryResponse();
-        Object country[][]= (Object[][]) map.get(countryCode);
+        String country[][]= (String[][]) map.get(countryCode);
         //System.out.println("country "+country[0]+" "+country[1]);
-        countryResponse.setCountry(country[0][0].toString());
+        countryResponse.setCountry(country[0][0]);
        // System.out.println("test ");
-        countryResponse.setCountryCode(country[0][1].toString());
+        countryResponse.setCountryCode(country[0][1]);
         countryResponse.setOperatorCode(Arrays.asList(country[1]));
         return countryResponse;
-    }
+    }*/
     private static Map OperatorsData()
     {
         //Egypt start
 
-        Map<String,Object >operatorData=new HashMap<>();
+        Map<String,String[] >operatorData=new HashMap<>();
         operatorData.put("2012", new String[]{"Egypt", "20","60201","Orange","012xxxxxxxx"});
         operatorData.put("2010", new String[]{"Egypt", "20","60202","Vodafone","010xxxxxxxx"});
         operatorData.put("2011", new String[]{"Egypt", "20","60203","Etisalat","011xxxxxxxx"});
@@ -200,57 +200,57 @@ public  class  CountriesData {
     public OperatorResponse operatorData(List<String> prefix){
         Map map=OperatorsData();
         OperatorResponse operatorResponse=new OperatorResponse();
-        Object[] opData = null;
+        String[] opData = null;
         for(String s:prefix){
-            opData= (Object[]) map.get(s);
+            opData= (String[]) map.get(s);
             if(opData!=null)break;
         }
         if(opData!=null){
-            operatorResponse.setCountry(opData[0].toString());
-            operatorResponse.setCountryCode(opData[1].toString());
-            operatorResponse.setOperatorCode(opData[2].toString());
-            operatorResponse.setOperatorName(opData[3].toString());
-            operatorResponse.setMsisdnPattern(opData[4].toString());
+            operatorResponse.setCountry(opData[0]);
+            operatorResponse.setCountryCode(opData[1]);
+            operatorResponse.setOperatorCode(opData[2]);
+            operatorResponse.setOperatorName(opData[3]);
+            operatorResponse.setMsisdnPattern(opData[4]);
         }
         return operatorResponse;
     }
     //has prefix
     public HasPrefix hasPrefixForCountry(String countryName,String msisdn){
         Map data=countryId();
-        Object[]countryData= (Object[]) data.get(countryName);
+        String[]countryData= (String[]) data.get(countryName);
         HasPrefix hasPrefix=new HasPrefix();
-        if(!msisdn.startsWith(countryData[1].toString())&&msisdn.startsWith("01")){
-            msisdn=countryData[1].toString()+msisdn;
+        if(!msisdn.startsWith(countryData[1])&&msisdn.startsWith("01")){
+            msisdn=countryData[1]+msisdn;
         }
-        if(!msisdn.startsWith(countryData[1].toString())&&msisdn.length()!=countryData[2].toString().length()-countryData[1].toString().length()){
+        if(!msisdn.startsWith(countryData[1])&&msisdn.length()!=countryData[2].length()-countryData[1].length()){
             hasPrefix.setHasPrefix(false);
-            hasPrefix.setMsisdnPattern(countryData[3].toString());
-            hasPrefix.setCountryCode(countryData[1].toString());
-            hasPrefix.setCountryId(countryData[0].toString());
+            hasPrefix.setMsisdnPattern(countryData[3]);
+            hasPrefix.setCountryCode(countryData[1]);
+            hasPrefix.setCountryId(countryData[0]);
             hasPrefix.setMsisdnLen(Integer.parseInt(String.valueOf(countryData[2])));
             hasPrefix.setMsisdn(msisdn);
         }
-        if(!msisdn.startsWith(countryData[1].toString())&&msisdn.length()==countryData[2].toString().length()-countryData[1].toString().length()){
-            msisdn=countryData[1].toString()+msisdn;
+        if(!msisdn.startsWith(countryData[1])&&msisdn.length()==countryData[2].length()-countryData[1].length()){
+            msisdn=countryData[1]+msisdn;
             hasPrefix.setHasPrefix(true);
-            hasPrefix.setMsisdnPattern(countryData[3].toString());
-            hasPrefix.setCountryCode(countryData[1].toString());
-            hasPrefix.setCountryId(countryData[0].toString());
+            hasPrefix.setMsisdnPattern(countryData[3]);
+            hasPrefix.setCountryCode(countryData[1]);
+            hasPrefix.setCountryId(countryData[0]);
             hasPrefix.setMsisdnLen(Integer.parseInt(String.valueOf(countryData[2])));
             hasPrefix.setMsisdn(msisdn);
         }else{
-           // msisdn=countryData[1].toString()+msisdn;
+           // msisdn=countryData[1]+msisdn;
             hasPrefix.setHasPrefix(true);
-            hasPrefix.setMsisdnPattern(countryData[3].toString());
-            hasPrefix.setCountryCode(countryData[1].toString());
-            hasPrefix.setCountryId(countryData[0].toString());
+            hasPrefix.setMsisdnPattern(countryData[3]);
+            hasPrefix.setCountryCode(countryData[1]);
+            hasPrefix.setCountryId(countryData[0]);
             hasPrefix.setMsisdnLen(Integer.parseInt(String.valueOf(countryData[2])));
             hasPrefix.setMsisdn(msisdn);
         }
         return hasPrefix;
     }
     private static Map countryId(){
-        Map<String,Object>countries=new HashMap<>();
+        Map<String,String[]>countries=new HashMap<>();
         countries.put("Egypt",new String[]{"EG","20","12","01xxxxxxxxx"});
         countries.put("Kuwait",new String[]{"KW","965","11","965xxxxxxxx"});
         countries.put("Tunisia",new String[]{"TN","216","11","216xxxxxxxx"});

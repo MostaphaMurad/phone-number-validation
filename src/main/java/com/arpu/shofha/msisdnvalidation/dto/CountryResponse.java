@@ -8,5 +8,5 @@ import java.util.List;
 public class CountryResponse {
     private String countryCode;
     private String country;
-    private List<Object>operatorCode;
+    private List<String>operatorCode;
 }
